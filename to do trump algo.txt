@@ -1,0 +1,44 @@
+add try and except error handling to either import or create csv file containing tweets
+
+use try and except error handling for ALPHAVANTAGE and yfinance stock data
+	- try: alphvantage
+		except: yfinance
+		- concat/append dataframes
+	-- this should remove the need for if else statement logic
+
+seperate out into different modules so that once data is imported, only manipulation code is needed in main module
+
+add new social media scraper - GOT is now obsolete
+
+	- do the same with trading algo code
+	
+research regression analysis to change regression models so that data actaully predicts swings
+	- 	option to use both multiple linear regression, 
+		decision tree regression, robust regression, logistic regression
+		polynomial regression, stepwise regression, elasticNet regression
+		ridge regression, lasso regression
+	
+	-	take last 12 month period and split into the 9 oldest months and 3 newest months,
+		run regression on 9 oldest and predict the data for 3 newest, if the test data (predicted 3 month data)
+		is very similar to the real data, we can conclude that our model can correctly predict market movements
+		
+add try and except error handling where possible to identify bugs and print errors for easier fixes
+
+add classes in for functions defined
+
+package modules onto github for modularity
+
+
+wrap in a tk GUI
+	- allow for input of trading amount / leverage
+	- ability to input twitter handle and dates and run regression on these
+	- ability to choose different stock indicies
+	- switch between paper and real trading account
+	- graphical display of regression to impact
+
+## FIANL - code entire progam in C++ for speed
+
+
+database optionality
+	-SQL
+	-BigQuery
